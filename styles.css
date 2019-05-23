@@ -1,0 +1,14 @@
+* {
+    background-color: azure;
+}
+
+.header1 {
+    display: inline-grid;
+    grid-template-columns: 2fr 7fr 3fr;
+    
+}
+
+.mainheader {
+    display: inline-grid;
+    justify-content: end;
+}
