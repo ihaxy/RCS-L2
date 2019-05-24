@@ -1,14 +1,40 @@
-* {
-    background-color: azure;
+
+.brand {
+    background-color: aquamarine;
 }
 
-.header1 {
-    display: inline-grid;
-    grid-template-columns: 2fr 7fr 3fr;
-    
+.globalnav {
+    background-color: beige;
 }
 
-.mainheader {
-    display: inline-grid;
-    justify-content: end;
+.tools {
+    background-color: bisque;
+}
+
+.herofeature {
+    background-color: rgb(165, 129, 76);
+}
+
+.herocall {
+    background-color: blue;
+}
+
+.ad {
+    background-color: blueviolet;    
+}
+
+.articlefeature {
+    background-color: brown;
+}
+
+.articlelisting {
+    background-color: burlywood;
+}
+
+.sidebar {
+    background-color: cadetblue;
+}
+
+.mainfooter {
+    background-color: rebeccapurple;
 }
