@@ -15,6 +15,7 @@
     
     .maincont {
         display: grid;
+        grid-template-columns: 9fr 3fr;
         grid-template-areas: 
         "d d"
         "e e"
@@ -35,7 +36,7 @@
     }
     
     .herofeature {
-        display: d;
+        grid-area: d;
     }
     
     .herocall {
