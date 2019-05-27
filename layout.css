@@ -1,10 +1,63 @@
 @media (min-width: 992px) {
-
+    .navbar {
+        display: grid;
+        width: 100%;
+        justify-content: end;
+        grid-template-columns: 3fr 6fr 3fr;
+        grid-template-areas: 
+        "a b c";
+    }
+    
+    .maincont {
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        grid-template-areas: 
+        "d d e g"
+        "f i i j";
+    }
+    
+    .navbar-brand {
+        grid-area: a;
+    }
+    
+    .globalnav {
+        grid-area: b;
+    }
+    
+    .navbar-toggler {
+        grid-area: c;
+    }
+    
+    .herofeature {
+        grid-area: d;
+        grid-column: 1 / 3;
+    }
+    
+    .herocall {
+        grid-area: e;
+    }
+    
+    .ad {
+        grid-area: g;
+    }
+    
+    .articlefeature {
+        grid-area: f;
+    }
+    
+    .articlelisting {
+        grid-area: i;
+    }
+    
+    .sidebar {
+        grid-area: j;  
+    }
 
 }
 
+
 @media (min-width: 577px) and (max-width: 991px) {
-    .mainheader {
+    .navbar {
         display: grid;
         width: 100%;
         justify-content: end;
@@ -20,10 +73,11 @@
         "d d"
         "e e"
         "f g"
-        "i i";
+        "i i"
+        "j j";
     }
     
-    .brand {
+    .navbar-brand {
         grid-area: a;
     }
     
@@ -31,7 +85,7 @@
         grid-area: b;
     }
     
-    .tools {
+    .navbar-toggler {
         grid-area: c;
     }
     
@@ -56,14 +110,14 @@
     }
     
     .sidebar {
-        display: none;  
+        grid-area: j;  
     }
 
 }
 
 @media (max-width: 576px){
 
-.mainheader {
+.navbar {
     display: grid;
     width: 100%;
     justify-content: end;
@@ -83,15 +137,15 @@
     "g";
 }
 
-.brand {
+.navbar-brand {
     grid-area: a;
 }
 
-.globalnav {
+#navbarSupportedContent {
     grid-area: b;
 }
 
-.tools {
+.navbar-toggler {
     grid-area: c;
 }
 
@@ -118,4 +172,5 @@
 .sidebar {
     display: none;  
 }
+
 }

@@ -38,3 +38,16 @@
 .mainfooter {
     background-color: rebeccapurple;
 }
+
+.brandimg {
+    width: 100%;
+}
+
+.adimg {
+    width: 100%;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+}
